@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+  background-color: rgb(0, 9, 48);
+}
+
+.App{
+  display: inline-flex;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+}
+
+.wrapper{
+  margin-bottom: -300px;
+}
+
+.card-background{
+  position: relative;
+  top: -50%;
+  right: -0.5%;
+  width: 252px;
+  height: 199px;
+  background: #FF8B64;
+  border-radius: 15px;
+  margin: 50px;
+  z-index: -1;
+}
+
+.card{
+  width: 255px;
+  height: 199px;
+  font-family: 'Rubik';
+  background: #1C204B;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+.card .content{
+  padding: 20px;
+}
+
+.card .header{
+  display: flex;
+}
+
+
+.card .category{
+  position: relative;
+  margin: auto;
+  margin-left: 0%;
+  float: left !;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+.card .nav-icon {
+  width: 20px;
+  text-align: center;
+}
+
+.card  .nav-icon > div {
+  margin: 0.5px;
+  width: 5px;
+  height: 5px;
+  background-color: #D8D8D8;;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.card .price{
+  font-style: normal;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 46px;
+  margin: 0px;
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+
+.card .footer{
+  display: grid;
+  grid-template-columns: 130px 130px;
+  width: 100%;
+}
+
+.card .title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #BBC0FF;
+  height: 80%;
+
+  overflow: hidden;
+}
+
+.card .avail{
+  float: right;
+  font-style: normal;
+  padding-left: 5px ;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
